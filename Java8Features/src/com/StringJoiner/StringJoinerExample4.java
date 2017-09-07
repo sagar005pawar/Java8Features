@@ -1,10 +1,11 @@
 package com.StringJoiner;
 
 import java.util.StringJoiner;
+
 //StringJoiner Example: StringJoiner Methods
 public class StringJoinerExample4 {  
     public static void main(String[] args) {  
-        StringJoiner joinNames = new StringJoiner(","); // passing comma(,) as delimiter   
+        StringJoiner joinNames = new StringJoiner(","); // passing comma(,) as delimiter
           
         // Prints nothing because it is empty  
         System.out.println(joinNames);  
@@ -39,6 +40,5 @@ public class StringJoinerExample4 {
         int newLength = joinNames.length();  
         System.out.println("New Length: "+newLength);  
         
-
     }  
 }
