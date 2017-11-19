@@ -29,13 +29,11 @@ public class JavaStreamExample11 {
 
         
         
-        
 /*        
         productsList.stream()
         .sorted((p15,p25)->p15.getName().toLowerCase().compareTo(p25.getName().toLowerCase()))
     	.forEach(System.out::println);
 */        
-        
         
 /*        
         productsList.stream()
@@ -43,7 +41,7 @@ public class JavaStreamExample11 {
         	.map(Product::getName)
         	.collect(Collectors.toList())
         	.forEach(System.out::println);
-*/        	
+*/        
         
 /*        
         String str = "java is paltform independent language";

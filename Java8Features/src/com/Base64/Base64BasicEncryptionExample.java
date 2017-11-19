@@ -1,6 +1,7 @@
 package com.Base64;
 
 import java.util.Base64;
+
 //Java Base64 Example: Basic Encoding and Decoding
 public class Base64BasicEncryptionExample {  
     public static void main(String[] args) {  
