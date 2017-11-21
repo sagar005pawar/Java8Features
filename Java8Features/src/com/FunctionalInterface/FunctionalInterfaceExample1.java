@@ -7,8 +7,10 @@ interface sayable1{
     // It can contain any number of methods of Object class.  
     int hashCode();  
     String toString();  
-    boolean equals(Object obj);  
+    boolean equals(Object obj);
+    
 }  
+
 public class FunctionalInterfaceExample1 implements sayable1
 {    
     public void say(String msg){  
