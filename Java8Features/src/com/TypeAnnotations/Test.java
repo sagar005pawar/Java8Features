@@ -3,7 +3,7 @@ package com.TypeAnnotations;
 import java.lang.annotation.Repeatable;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import com.sun.istack.internal.NotNull;
+import com.sun.istack.NotNull;
 
 @Repeatable(Pros.class)
 @interface Pro{

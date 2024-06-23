@@ -14,7 +14,7 @@ public class JdbcExample implements DriverAction, SQLType
 	 public static void main(String args[]){  
 	     try{  
 	         // Creating driver instance  
-	         Driver driver = new com.mysql.jdbc.Driver();  
+	         Driver driver = new com.mysql.cj.jdbc.Driver();  
 	         // Creating Action Driver  
 	         DriverAction da = new JdbcExample();  
 	         // Registering driver by passing driver and driverAction  

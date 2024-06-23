@@ -1,7 +1,7 @@
 package com.TypeAnnotations;
 
 import java.io.Serializable;
-import com.sun.istack.internal.NotNull;
+import com.sun.istack.NotNull;
 
 public class Product implements Serializable, Cloneable {  
 
